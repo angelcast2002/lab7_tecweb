@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from '/src/assets/ducklogo.svg'
+import RecursoLogo from '/src/assets/ducklogo.svg'
+import './Logo.css';
 
 const Logo = () => {
   return (
-    <div>
-      <img src={logo} alt="Logo de duckduckgo" />
+    <div className='logo'>
+      <img src={RecursoLogo} alt="Logo de duckduckgo" className='main_logo'/>
     </div>
   );
 }
 
-export default logo;
+export {Logo};

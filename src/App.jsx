@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import duckLogo from './Logo.jsx'
-import './Textdesc.jsx'
+import { Logo } from './Logo.jsx'
 import './App.css'
 import './CheckItem.css'
 import { Textdesc, Textdescparagraph } from './Textdesc.jsx'
@@ -14,12 +13,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div classname="App">
+    <div className="App">
 
       <div className="fondoup">
-        <div className="logo">
-            <img src={duckLogo} alt="DuckDuckGo logo" className="main_logo"/>
-        </div>
+        <Logo/>
         <Input/>
         <Textdesc className='textdesc'>
             ¿Cansado de que te rastreen? Podemos ayudarte.
