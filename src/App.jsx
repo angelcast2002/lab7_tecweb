@@ -6,7 +6,7 @@ import { Textdesc, Textdescparagraph } from "./Textdesc"
 import CheckItem from "./CheckItem"
 import InfoCards from "./InfoCards"
 import FunButton from "./Button"
-import { Input } from "./Input"
+import Input from "./Input"
 import "./fondo.css"
 
 function App() {
