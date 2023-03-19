@@ -1,3 +1,4 @@
+
 module.exports = {
   env: {
     browser: true,
@@ -6,6 +7,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
+    'prettier'
   ],
   overrides: [
   ],
@@ -14,14 +16,12 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    'react',
-    'prettier'
+    'react'
   ],
   rules: {
     'semi':['error','never'],
     'max-len':['error',{ 'code':120}],
     'prefer-arrow-callback': 'error',
-    'prettier/prettier': 'error',
-    'quotes': ['error', 'single']
+    'quotes': ['error', 'double']
   },
 };

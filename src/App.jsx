@@ -1,13 +1,13 @@
-import React from 'react'
-import { Logo } from './Logo'
-import './App.css'
-import './CheckItem.css'
-import { Textdesc, Textdescparagraph } from './Textdesc'
-import { CheckItem } from './CheckItem'
-import { InfoCards } from './InfoCards'
-import { Button } from './Button'
-import { Input } from './Input'
-import './fondo.css'
+import React from "react"
+import { Logo } from "./Logo"
+import "./App.css"
+import "./CheckItem.css"
+import { Textdesc, Textdescparagraph } from "./Textdesc"
+import { CheckItem } from "./CheckItem"
+import { InfoCards } from "./InfoCards"
+import FunButton from "./Button"
+import { Input } from "./Input"
+import "./fondo.css"
 
 function App() {
   return (
@@ -15,18 +15,18 @@ function App() {
       <div className="fondoup">
         <Logo />
         <Input />
-        <Textdesc className='textdesc'>
+        <Textdesc className="textdesc">
           ¿Cansado de que te rastreen? Podemos ayudarte.
         </Textdesc>
-        <Textdescparagraph className='textdesc'>
+        <Textdescparagraph className="textdesc">
           No almacenamos información personal. No te persegimos con anuncios. No te rastreamos nunca.
         </Textdescparagraph>
         <CheckItem />
-        <Button className="blue" >Añadir DuckDuckGo a Chrome</Button>
-        <Textdescparagraph className='textdescpar'>
+        <FunButton className="blue" text="Añadir DuckDuckGo a Chrome" />
+        <Textdescparagraph className="textdescpar">
           ¡Con la confianza de decenas de millones de personas en todo el mundo!
         </Textdescparagraph>
-        <Textdesc className='textdesc'>
+        <Textdesc className="textdesc">
           Protección de la Privacidad para Cualquier Dispositivo
         </Textdesc>
         <svg className="curva" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1438 134">
@@ -35,17 +35,17 @@ function App() {
       </div>
       <div className="fondodown">
         <InfoCards/>
-          <Textdesc className='textdesc'>
+          <Textdesc className="textdesc">
             No guardamos tu información
             <br />
             personal. Y nunca lo haremos.
           </Textdesc>
-        <Textdescparagraph className='textdesc'>
+        <Textdescparagraph className="textdesc">
           Nuestra política de privacidad es simple: No colectamos
           <br />
           o compartimos ninguna información personal tuya.
         </Textdescparagraph>
-        <Button className="green">Instalar DuckDuckGo</Button>
+        <FunButton className="green" text="Instalar DuckDuckGo"/>
       </div>
     </div>
   )
