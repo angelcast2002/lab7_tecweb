@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import { Logo } from './Logo.jsx'
-import './App.css'
-import './CheckItem.css'
-import { Textdesc, Textdescparagraph } from './Textdesc.jsx'
-import { CheckItem } from './CheckItem'
-import {InfoCards} from "./InfoCards.jsx";
-import { Button } from './Button.jsx'
-import { Input } from './Input.jsx'
-import './fondo.css'
+import { useState } from "react"
+import { Logo } from "./Logo"
+import "./App.css"
+import "./CheckItem.css"
+import { Textdesc, Textdescparagraph } from "./Textdesc"
+import { CheckItem } from "./CheckItem"
+import { InfoCards } from "./InfoCards";
+import { Button } from "./Button"
+import { Input } from "./Input"
+import "./fondo.css"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">

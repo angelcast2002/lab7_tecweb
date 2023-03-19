@@ -15,9 +15,12 @@ module.exports = {
   },
   plugins: [
     'react',
+    "prettier"
   ],
   rules: {
-    "semi":"off",
-    "max-len":["error",{ "code":160}]
+    "semi":["error","never"],
+    "max-len":["error",{ "code":120}],
+    "prefer-arrow-callback": "error",
+    "prettier/prettier": "error"
   },
 };
