@@ -7,7 +7,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
-    'prettier'
+    'plugin:prettier/recommended'
   ],
   overrides: [
   ],
@@ -22,6 +22,7 @@ module.exports = {
     'semi':['error','never'],
     'max-len':['error',{ 'code':120}],
     'prefer-arrow-callback': 'error',
-    'quotes': ['error', 'double']
+    'quotes': ['error', 'double'],
+    'react/function-component-definition': 'off'
   },
 };
